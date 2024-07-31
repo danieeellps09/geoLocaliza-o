@@ -14,6 +14,8 @@
 		8022ACEF2C530FD700B447EA /* geolocalizacaoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8022ACEE2C530FD700B447EA /* geolocalizacaoTests.swift */; };
 		8022ACF92C530FD700B447EA /* geolocalizacaoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8022ACF82C530FD700B447EA /* geolocalizacaoUITests.swift */; };
 		8022ACFB2C530FD700B447EA /* geolocalizacaoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8022ACFA2C530FD700B447EA /* geolocalizacaoUITestsLaunchTests.swift */; };
+		8022AD082C53104D00B447EA /* locationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8022AD072C53104D00B447EA /* locationManager.swift */; };
+		8022AD0A2C5322D600B447EA /* LocationRequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8022AD092C5322D600B447EA /* LocationRequestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		8022ACF42C530FD700B447EA /* geolocalizacaoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = geolocalizacaoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8022ACF82C530FD700B447EA /* geolocalizacaoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geolocalizacaoUITests.swift; sourceTree = "<group>"; };
 		8022ACFA2C530FD700B447EA /* geolocalizacaoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = geolocalizacaoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		8022AD072C53104D00B447EA /* locationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = locationManager.swift; sourceTree = "<group>"; };
+		8022AD092C5322D600B447EA /* LocationRequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationRequestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				8022ACDF2C530FD600B447EA /* ContentView.swift */,
 				8022ACE12C530FD700B447EA /* Assets.xcassets */,
 				8022ACE32C530FD700B447EA /* Preview Content */,
+				8022AD072C53104D00B447EA /* locationManager.swift */,
+				8022AD092C5322D600B447EA /* LocationRequestView.swift */,
 			);
 			path = geolocalizacao;
 			sourceTree = "<group>";
@@ -258,7 +264,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8022ACE02C530FD600B447EA /* ContentView.swift in Sources */,
+				8022AD0A2C5322D600B447EA /* LocationRequestView.swift in Sources */,
 				8022ACDE2C530FD600B447EA /* geolocalizacaoApp.swift in Sources */,
+				8022AD082C53104D00B447EA /* locationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,8 +430,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"geolocalizacao/Preview Content\"";
+				DEVELOPMENT_TEAM = Y25NP8JU6C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "The app needs access to your location to provide location-based services.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -450,8 +460,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"geolocalizacao/Preview Content\"";
+				DEVELOPMENT_TEAM = Y25NP8JU6C;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "The app needs access to your location to provide location-based services.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
